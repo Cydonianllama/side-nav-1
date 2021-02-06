@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Nav</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class = "row-container">
+        <div class = "side-nav " data-open-side-nav = "true">
+            <div class = "w-100 mb-5">
+                <button id = "toggle-side-nav" class = "side-nav-brand text-align-left" >Brand</button>
+            </div>
+            <div class = "side-nav-container-items column-container justify-content-center gap-1 pl-3">
+                <button data-selected = "true" class="side-nav-item row-container justify-content-flexstart mb-3 align-items-center"> <div class="icon-item grid-center mr-2">*</div> <div class ="text-item side-nav-item-selected">Home</div> </button>
+                <button data-selected = "false" class="side-nav-item row-container justify-content-flexstart mb-3 align-items-center"> <div class="icon-item grid-center mr-2">*</div> <div class ="text-item">Dashboard</div> </button>
+                <button data-selected = "false" class="side-nav-item row-container justify-content-flexstart mb-3 align-items-center"> <div class="icon-item grid-center mr-2">*</div> <div class ="text-item">Configurations</div> </button>
+                <button data-selected = "false" class="side-nav-item row-container justify-content-flexstart mb-3 align-items-center"> <div class="icon-item grid-center mr-2">*</div> <div class ="text-item">account</div> </button>
+            </div>
+        </div>
+        <div class = "content p-5">
+            default render
+        </div>
+    </main>
+    <div>
+
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>
